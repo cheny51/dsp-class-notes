@@ -1,0 +1,98 @@
+\section*{Lecture 2: Introduction Day 2}
+\subsection*{Summary}
+\paragraph{A family of signals that are the building blocks of complex signal.}
+Important functions and the relationships between those simple special signals. \\Review of special signal: \textit{Delta function, step function, sinusoid, exponential, sampling property, Euler's formula, discrete time convolution.}
+\vspace{5pt}
+\hrule
+\subsection*{Last Lecture}
+\subparagraph*{Digital Time Signal} To process ANY signals using any toolkit being discussed in this course, the signals need to be in the digital format (in other words, must be sampled and not be continuous).
+
+\subsection*{Important Functions}
+\[
+  \delta[n] =
+  \begin{cases}
+    0, & n\neq 0 \\
+    1, & n=0
+  \end{cases}
+\]
+\subparagraph*{Unit Impulse Function} In continuous time, unit impulse is only defined at t=0, with weight being \textbf{unbounded}. In discrete time, unit impulse is only defined at n=0, with weight being of \textbf{1}. 
+\[
+  u[n] = 
+  \begin{cases}
+      1, & n\geq 0\\
+      0, & n< 0
+  \end{cases}
+\]
+\subparagraph*{Unit Step Function} In continuous time, unit step is a function with weight being 1 for t $\geq$ 0 and 0 otherwise. The relationships between $u(t)$ and $\delta(t)$ is:
+\begin{align}
+    u(t) &= \int_{t}^{} \delta(t) \,dt  \\
+    \delta(t) &= \frac{d}{dt}u(t)
+\end{align}
+This is similar to the discrete time, except in discrete time, you cannot use intergration or differentiation, so this relationships can be shown as:
+\begin{align*}
+    u[n] &= \delta[n]+\delta[n-1]+\cdots \\
+         &= \sum_{k=0}^{\infty} \delta[n-k] \\
+    \delta[n] &= u[n]-u[n-1]      
+\end{align*}
+\subsection*{Sampling Property}
+\subparagraph*{Can you answer this: $x[n]\delta[n-n_0]$?} If you draw the two plots and multiply them together, you notice that it will evaluate to:
+\[
+    x[n]\delta[n-n_0] = 
+    \begin{cases}
+        x[n_0], &n=n_0 \\
+        0, &else
+    \end{cases}
+\]
+To put more things into perspective, when you have a spectrum of x[n] which has different height for different n. You can imagine that as a summation of different time shifted version of impulse with a weight being multiplied to the impulse. To put this in terms of equation:
+\begin{align*}
+    x[n] &= \sum_{-\infty}^{\infty}x[k]\delta[n-k] \\
+         &= x[n] \ast \delta[n]
+\end{align*}
+
+\subsection*{Complex Number}
+\begin{align*}
+    z &= x+jy, \quad(\text{Rectangular}) \\
+    z &= re^{j\theta}, \quad\quad(\text{Polar}) \\
+    r &= \left\lvert z \right\rvert = \sqrt{x^2+y^2}\\
+    \theta &= \angle  z = \arctan(\frac{y}{x})
+\end{align*}
+
+\subsection*{Euler's Formula}
+\begin{align*}
+    e^{j\theta} &= cos(\theta) + jsin(\theta) \\
+    cos(\theta) &= \frac{1}{2}(e^{j\theta}+e^{-j\theta})\\
+    sin(\theta) &= \frac{1}{2j}(e^{j\theta}-e^{-j\theta})
+\end{align*}
+
+\subsection*{Sinusoid}
+The general function of a sinusoid is a function of sin or cosine.
+\[
+    x(t)=Asin(w_0 t + \phi)
+\]
+This function above is periodic with $T = \frac{w_0}{2\pi}=\frac{1}{f}$.
+
+\subsection*{Exponential}
+The general function of an exponential is:
+\[x(t)=\mathbf{C}e^{\alpha t}\]
+If $\mathbf{C, \alpha}\subset \mathbb{R}:$
+\[\alpha > 0 \rightarrow x(t)\text{ is an exponential grow function.}\]
+\[\alpha < 0 \rightarrow x(t)\text{ is an exponential decay function.}\]
+If $\mathbf{C, \alpha}\subset \mathbb{C}:$
+\begin{align*}
+    \mathbf{C} &= re^{j\theta}, \mathbf{\alpha} = b+jy \\
+    x(t) &= \mathbf{C}e^{\alpha t} = re^{j\theta}e^{(b+jy) t} = re^{bt}e^{j(\theta+yt)} \\
+         &= re^{bt} [cos(\theta+yt)+jsin(\theta+yt)]
+\end{align*}
+\subsubsection*{Real Envelope} The real and the non-sinusoidal constant part of x(t), $re^{bt}$, is called the real envelope in that it is an imaginary curve that set the boundary within which the signal is contained. \\
+The detail discussed above is for continuous time, for the discrete time, the only difference here is this:
+\begin{align*}
+    \alpha &= e^{\beta} \subset \mathbb{R}, \mathbf{C}=\phi + jw_0\subset \mathbb{C}\\
+    x[n] &= \mathbf{C}e^{\beta n}, n \subset \mathbb{Z} \\
+         &= \mathbf{C}\alpha^n \\
+         &= |\mathbf{C}||\alpha|^n [cos(w_0n+\phi)+jsin(w_0n+\phi)] \\
+    e^{jw_0n} &\equiv e^{j(w_0 + 2\pi)n}, e^{j(w_0+2\pi)n} \leq 1 = e^{2\pi n}
+\end{align*}
+In other words, in discrete time, there's no infinitely high frequency. Only a $2\pi$-wide range of frequency. 
+
+\subsection*{Convolution (LTI)}
+You choose 1 function to time-reverse. Start n at negative inifnity and slide it to the right to positive infinity. It's better to watch youtube video to explain on this to save typesetting everything
