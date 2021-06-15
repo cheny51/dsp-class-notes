@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.28)  14 JUN 2021 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.28)  15 JUN 2021 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -130,8 +130,15 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2021basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-)))) (/usr/local/texlive/2021basic/texmf-dist/tex/latex/import/import.sty
+))) (/usr/local/texlive/2021basic/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
+)) (/usr/local/texlive/2021basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ) (/usr/local/texlive/2021basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count199
@@ -166,14 +173,22 @@ LaTeX Font Info:    ... okay on input line 8.
 \MPnumerator=\count270
 \makeMPintoPDFobject=\count271
 \everyMPtoPDFconversion=\toks24
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+ (/usr/local/texlive/2021basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+ (/usr/local/texlive/2021basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2021basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./lec01.tex
 Package epstopdf Info: Source file: <../images/lec1/FVE_image_2.eps>
-(epstopdf)                    date: 2021-06-14 16:49:58
+(epstopdf)                    date: 2021-06-14 20:27:54
 (epstopdf)                    size: 11491 bytes
 (epstopdf)             Output file: <../images/lec1/FVE_image_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-06-14 18:32:45
+(epstopdf)                    date: 2021-06-14 20:27:54
 (epstopdf)                    size: 6249 bytes
 (epstopdf)             Command: <repstopdf --outfile=../images/lec1/FVE_image_2-eps-converted-to.pdf ../images/lec1/FVE_image_2.eps>
 (epstopdf)             \includegraphics on input line 27.
@@ -183,20 +198,20 @@ File: ../images/lec1/FVE_image_2-eps-converted-to.pdf Graphic file (type pdf)
 <use ../images/lec1/FVE_image_2-eps-converted-to.pdf>
 Package pdftex.def Info: ../images/lec1/FVE_image_2-eps-converted-to.pdf  used on input line 27.
 (pdftex.def)             Requested size: 390.0pt x 152.92383pt.
- [1] [2 <../images/lec1/FVE_image_2-eps-converted-to.pdf>]) [3] (./main.aux) ) 
+ [1] [2 <../images/lec1/FVE_image_2-eps-converted-to.pdf>]) [3] (./lec02.tex [4] [5] [6]) [7] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2429 strings out of 480445
- 36610 string characters out of 5892391
- 324153 words of memory out of 5000000
- 19660 multiletter control sequences out of 15000+600000
- 410971 words of font info for 53 fonts, out of 8000000 for 9000
+ 2541 strings out of 480445
+ 38185 string characters out of 5892391
+ 327598 words of memory out of 5000000
+ 19751 multiletter control sequences out of 15000+600000
+ 414480 words of font info for 69 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  83i,11n,88p,464b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
- </Users/cheny51/Library/texlive/2021basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </Users/cheny51/Library/texlive/2021basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (4 pages, 105277 bytes).
+ </Users/cheny51/Library/texlive/2021basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </Users/cheny51/Library/texlive/2021basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (8 pages, 163733 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,0 @@
-PWD /Users/cheny51/RepoDoc/dsp-class-notes/lec_tex
-INPUT /usr/local/texlive/2021basic/texmf.cnf
-INPUT /usr/local/texlive/2021basic/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2021basic/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/cheny51/RepoDoc/dsp-class-notes/lec_tex/lec01.tex
-OUTPUT lec01.log
-INPUT /usr/local/texlive/2021basic/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /usr/local/texlive/2021basic/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
