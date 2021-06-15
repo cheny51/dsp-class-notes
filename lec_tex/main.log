@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.28)  14 JUN 2021 19:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.28)  14 JUN 2021 20:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/cheny51/RepoDoc/dsp-class-notes/lec01.tex
-(/Users/cheny51/RepoDoc/dsp-class-notes/lec01.tex
+**/Users/cheny51/RepoDoc/dsp-class-notes/lec_tex/main.tex
+(/Users/cheny51/RepoDoc/dsp-class-notes/lec_tex/main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -22,7 +22,9 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/inputenc.sty
+) (./glossary.sty
+Package: glossary 
+ (/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -128,27 +130,29 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2021basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))) (/usr/local/texlive/2021basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+)))) (/usr/local/texlive/2021basic/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
+) (/usr/local/texlive/2021basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count199
 \l__pdf_internal_box=\box49
-) (./lec01.aux)
-\openout1 = `lec01.aux'.
+) (./main.aux)
+\openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
  (/usr/local/texlive/2021basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count266
@@ -164,32 +168,32 @@ LaTeX Font Info:    ... okay on input line 11.
 \everyMPtoPDFconversion=\toks24
 ) [1
 
-{/usr/local/texlive/2021basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package epstopdf Info: Source file: <./images/lec1/FVE_image_2.eps>
+{/usr/local/texlive/2021basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./lec01.tex
+Package epstopdf Info: Source file: <../images/lec1/FVE_image_2.eps>
 (epstopdf)                    date: 2021-06-14 16:49:58
 (epstopdf)                    size: 11491 bytes
-(epstopdf)             Output file: <./images/lec1/FVE_image_2-eps-converted-to.pdf>
+(epstopdf)             Output file: <../images/lec1/FVE_image_2-eps-converted-to.pdf>
 (epstopdf)                    date: 2021-06-14 18:32:45
 (epstopdf)                    size: 6249 bytes
-(epstopdf)             Command: <repstopdf --outfile=./images/lec1/FVE_image_2-eps-converted-to.pdf ./images/lec1/FVE_image_2.eps>
-(epstopdf)             \includegraphics on input line 41.
+(epstopdf)             Command: <repstopdf --outfile=../images/lec1/FVE_image_2-eps-converted-to.pdf ../images/lec1/FVE_image_2.eps>
+(epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<./images/lec1/FVE_image_2-eps-converted-to.pdf, id=11, 330.23375pt x 129.48375pt>
-File: ./images/lec1/FVE_image_2-eps-converted-to.pdf Graphic file (type pdf)
-<use ./images/lec1/FVE_image_2-eps-converted-to.pdf>
-Package pdftex.def Info: ./images/lec1/FVE_image_2-eps-converted-to.pdf  used on input line 41.
+<../images/lec1/FVE_image_2-eps-converted-to.pdf, id=11, 330.23375pt x 129.48375pt>
+File: ../images/lec1/FVE_image_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ../images/lec1/FVE_image_2-eps-converted-to.pdf>
+Package pdftex.def Info: ../images/lec1/FVE_image_2-eps-converted-to.pdf  used on input line 27.
 (pdftex.def)             Requested size: 390.0pt x 152.92383pt.
- [1] [2 <./images/lec1/FVE_image_2-eps-converted-to.pdf>] [3] (./lec01.aux) ) 
+ [1] [2 <../images/lec1/FVE_image_2-eps-converted-to.pdf>]) [3] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2390 strings out of 480445
- 35898 string characters out of 5892391
- 323805 words of memory out of 5000000
- 19630 multiletter control sequences out of 15000+600000
+ 2429 strings out of 480445
+ 36610 string characters out of 5892391
+ 324153 words of memory out of 5000000
+ 19660 multiletter control sequences out of 15000+600000
  410971 words of font info for 53 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 68i,11n,74p,436b,297s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,11n,88p,464b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/cheny51/Library/texlive/2021basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0700.600pk> </Users/cheny51/Library/texlive/2021basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on lec01.pdf (4 pages, 105276 bytes).
+Output written on main.pdf (4 pages, 105277 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

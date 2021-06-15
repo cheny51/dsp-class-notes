@@ -1,18 +1,4 @@
-\documentclass[12pt, letterpaper]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{epstopdf}
 
-\title{Class Notes for Digital Signal Processing}
-\author{Aiden Chen \thanks{class taken in Fall 2020 at RPI, Troy, NY}}
-\date{June 2021}
-
-\begin{document}
-
-\begin{titlepage}
-    \maketitle
-\end{titlepage}
 
 \section*{Lecture 1: Introduction}
 \subsection*{Summary}
@@ -38,7 +24,7 @@ And now let's look at some theorem and properties of signals.
 \subsection*{The Nyquist-Shannon Sampling Theorem}
 \subparagraph*{Definition:}Reconstruct signal from its samples if and only if its sampling rate is greater than twice the highest frequency component in the signal.
 \begin{figure}[h]
-    \includegraphics[width=\textwidth]{./images/lec1/FVE_image_2}
+    \includegraphics[width=\textwidth]{../images/lec1/FVE_image_2}
 \end{figure}
 
 On the figure above, the sampling theorem stated that when the sampling frequency is twice of the maximum frequency ($fs_1=2fc_1$) of the original signal ($fc_1$), then the signal sampled will not be distorted. However, if the same sampling frequency ($fs_1=2fc_1$) is used to sample original signal with maximum frequency, then the sampled signal is distorted because $fs_1 < 2fc_2$. 
@@ -62,4 +48,3 @@ And the part has some uniqueness in it to distinguish one part from the other by
 In otherwords, to determine if a signal is \textbf{strictly} odd or even, check its time reversal shape and see which statement will fit. If the signal is neither \textbf{strictly} odd or even, then you would need to broke down the signal into $Ev(x(t))$ and $Od(x(t))$ using the equation above.
 
 \subparagraph*{Periodicity} $x(t+T) = x(t)$ means $y_0 = x(t_0)$ can be found again after T seconds for all $t$ in $x$.
-\end{document}
